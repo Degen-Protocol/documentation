@@ -1,0 +1,61 @@
+import Image from 'next/image'
+
+<Image src="/staking-heading.png" alt="" width={1500} height={500} />
+
+## Introduction
+Degen Protocol hosts an LP Token Staking Pool, enabling participants to earn GOAT! Anyone can participate without limitation simply by creating GOAT-WPLS LP on PulseX V2, and staking those LP tokens in the LP Farm.
+
+## How to Participate
+
+<Image src="/guides/staking/0.png" alt="" width={1920} height={1080} />
+
+1: Head to https://degenprotocol.io and mint some GOAT with WPLS.
+ - If you don't have WPLS, head to https://dex.degenprotocol.io and wrap some PLS into WPLS.
+ - GOAT is minted with WPLS, and can be redeemed for WPLS.
+
+<br />
+
+<Image src="/guides/staking/1.png" alt="" width={1920} height={1080} />
+
+2: On the liquidity tab of https://dex.degenprotocol.io, click 'Add Liquidity'.
+ - Choose 'GOAT' in one of the dropdown boxes, and 'WPLS' in the other.
+ - Enter an amount of either token you'd like to add to LP - the amount of the other token will adjust automatically.
+ - Check the amounts and confirm by clicking 'Add Liquidity'.
+ - ⚠ You might need to approve GOAT before you can add it to LP.
+ - ☝ GOAT contract is `0xF5D0140B4d53c9476DC1488BC6d8597d7393f074`
+
+<br />
+
+<Image src="/guides/staking/2.png" alt="" width={1920} height={1080} />
+
+3: Head back to https://degenprotocol.io/stake.
+ - Enter the amount of LP tokens you wish to stake, then click 'Approve'.
+ - After the approval completes, click 'Stake LP'.
+ - 🎉 That's it - you're earning GOAT!
+
+<br />
+
+<Image src="/guides/staking/3.png" alt="" width={1080} height={720} />
+
+
+
+## Rewards & Booster
+
+<br />
+
+<Image src="/guides/staking/4.png" alt="" width={1080} height={720} />
+
+Rewards Booster is a facility attached to the LP Staking Pool which automatically generates more GOAT to distribute as rewards for LP stakers. It receives WPLS, GOAT and GOAT-WPLS LP, and uses them all to generate more rewards.
+<br />
+
+<b>How it works: </b><br />
+Rewards Booster unpacks the LP, keeping the GOAT aside and using the WPLS.
+ - 50% of WPLS mints more GOAT
+ - 50% of WPLS buys IMPLS (IMPLS Finance).
+
+IMPLS is staked in the IMPLS Finance 'revenue share pool', earning PLS. As rewards are harvested to the Reward Booster, PLS is turned into WPLS.
+
+Since the IMPLS Staking Pool perpetually generates PLS from fees on their protocol, a large stake in their pool will generate constant PLS to mint more GOAT, giving continuous rewards to stakers!
+
+If at any point in time, the IMPLS Finance protocol were to cease the staking pool, Rewards Booster can withdraw its IMPLS and sell them for WPLS. That WPLS can then be minted into GOAT, to also use as rewards.
+
