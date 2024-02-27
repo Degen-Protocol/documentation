@@ -1,2 +1,9 @@
 .next
+.yarn
+
+.env
+.secret
+
 node_modules
+
+yarn.lock
